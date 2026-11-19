@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gh" fetch="https://github.com" />
+
+  <project name="Am80286/android_device_samsung_r1q"
+           path="device/samsung/r1q"
+           remote="gh"
+           revision="lineage-23.2" />
+
+  <project name="Am80286/android_device_samsung_sm7150-common"
+           path="device/samsung/sm7150-common"
+           remote="gh"
+           revision="lineage-23.2" />
+
+  <project name="Am80286/proprietary_vendor_samsung_r1q"
+           path="vendor/samsung/r1q"
+           remote="gh"
+           revision="lineage-23.2" />
+
+  <project name="Am80286/proprietary_vendor_samsung_sm7150-common"
+           path="vendor/samsung/sm7150-common"
+           remote="gh"
+           revision="lineage-23.2" />
+
+  <project name="Am80286/android_kernel_samsung_a71"
+           path="kernel/samsung/sm7150"
+           remote="gh"
+           revision="lineage-23.2" />
+
+  <project name="LineageOS/android_hardware_samsung"
+           path="hardware/samsung"
+           remote="github" />
+</manifest>
